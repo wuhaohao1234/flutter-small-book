@@ -1,3 +1,24 @@
+---
+id: e0cb330e-c526-4b42-ab44-b9a9060a4254
+title: HTTP
+desc: ''
+updated: 1610505099765
+created: 1610504956584
+---
+
+## http
+
+
+pubspec.yaml
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.12.2
+```
+
+
+```dart
 import 'dart:async';
 import 'dart:convert';
 
@@ -97,3 +118,7 @@ class PhotosList extends StatelessWidget {
     );
   }
 }
+
+```
+
+![](/assets/images/2021-01-13-10-31-35.png)
